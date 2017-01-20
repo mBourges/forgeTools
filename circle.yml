@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 5.10.0
+general:
+  branches:
+    only:
+      - master
+dependencies:
+  override:
+    - npm install
+    - npm install --only=dev
+test:
+  override:
+    - npm run validate
