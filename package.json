@@ -1,5 +1,5 @@
 {
-  "name": "forgeTools",
+  "name": "forgetools",
   "version": "0.0.0-semantically-release",
   "description": "Util functions for my apps",
   "main": "dist/index.js",
