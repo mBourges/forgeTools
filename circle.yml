@@ -16,4 +16,4 @@ test:
     - npm run validate
   post:
     - npm run coverage
-    - npm run release
+    - npm run release || true
