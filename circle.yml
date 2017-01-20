@@ -1,11 +1,13 @@
 machine:
   node:
-    version: 5.10.0
+    version: 6.9.4
 general:
   branches:
     only:
       - master
 dependencies:
+  cache_directories:
+    - node_modules
   override:
     - npm install
     - npm install --only=dev
